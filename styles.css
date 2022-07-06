@@ -1,16 +1,24 @@
+.h1 {
+    font-family: Verdana;
+    text-align: center;
+    color: red;
+}
+
 .flex-container {
     display: flex;
-    margin: -2rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    color: #ffffff; 
+    background-color: #ffffff; 
 }
 
 .flex-container div {
     display: flex;
-    width: 80rem;
-    color: #ffffff;
+    width: 16rem;
+    margin: 1rem;
+    color: #000000;
     padding: 3rem;
     box-shadow: -5px 10px 13px -8px rgba(0, 0, 0, 0.31);
+    border: 1px solid whitesmoke;
+    
 }
