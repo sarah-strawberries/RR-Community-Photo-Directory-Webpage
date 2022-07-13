@@ -16,9 +16,15 @@
     display: flex;
     width: 16rem;
     margin: 1rem;
-    color: #000000;
     padding: 3rem;
     box-shadow: -5px 10px 13px -8px rgba(0, 0, 0, 0.31);
-    border: 1px solid whitesmoke;
-    
+    border: 1px solid whitesmoke;   
+}
+
+.image-component {
+    width: 16rem;
+}
+
+.content-component {
+    color: #000000;
 }
